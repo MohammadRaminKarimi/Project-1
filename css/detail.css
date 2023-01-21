@@ -1,0 +1,358 @@
+
+
+body{
+	background-color: #f5f5f5;
+	overflow-x: hidden;
+}
+
+@media screen and (max-width: 900px) {
+	html{
+		overflow-x: hidden;
+	}
+}
+
+
+
+.navbar{
+	background-color: #6610ff;
+	margin-top: 0px;
+}
+.header{
+	background:#6610ff;
+	position: relative;
+	height: 300px;
+	margin-top: -47px;
+
+}
+ .mobile-nav-toggles{
+  color: #fff;
+    font-size: 32px;
+    cursor: pointer;
+    display: none;
+    line-height: 0;
+    margin-right: -5px;
+    overflow-x: hidden;
+    float: right;
+ }
+ .navbar-toggler{
+ 	outline: none;
+ 	border: none;
+ }
+
+.navbar-nav .nav-item{
+	font-size: 17px;
+	margin-top: 2px;
+	position: relative;
+}
+.navbar-toggler{
+	margin-right: 6px;
+}
+.header h1{
+	font-size: 3rem;
+	margin-top: 80px;
+}
+.header p{
+	margin-top: 20px;
+	
+}
+@media screen and (max-width: 900px) {
+	  .mobile-nav-toggles{
+		display: block;
+		overflow-x: hidden;
+
+	}
+	.header{
+		height: 300px;
+		background-position: center;
+		position: relative;
+		margin-top: -47px;
+	}
+	.header h1{
+		margin-top: 80px;
+	}
+	
+}
+
+@media screen and (max-width: 900px) {
+	.container{
+		margin:0;
+		padding: 0;
+	}
+	body{
+		overflow-x: hidden;
+
+	}
+	.navbar{
+		overflow-x: hidden;
+	}
+
+	
+}
+
+
+
+
+
+
+
+
+.carousel-indicators button{
+	margin-top: 130px;
+	color: #000;
+	margin-left: -140px;
+}
+
+.carousel-item{
+	position: relative;
+	left: 0%;
+	margin-top: 60px;
+	
+}
+ .img-fluid{
+	width: 90%;
+	height: 460px;
+	position: relative;
+	background-position: center;
+	left: 4%;
+}
+
+@media screen and (max-width: 1000px) {
+	.img-fluid{
+	  width: 94%;
+	  height: 290px;
+	  
+	  
+    }
+    .carousel-item{
+    	position: relative;
+    	left: -1%;
+    	margin-top: 170px;
+    }
+    
+   .carousel-indicators button{
+	margin-top: -5px;
+	
+   }
+}
+.port-info{
+	
+	box-shadow: 0px 0 30px rgb(78 78 78 / 8%);
+	margin-top: 50px;
+}
+.portfolio-info{
+	padding: 30px;
+}
+.portfolio-info h3{
+	font-size: 22px;
+	font-weight: 700px;
+	padding-bottom: 20px;
+	
+}
+.portfolio-info ul{
+	list-style: none;
+	margin-left: -29px;
+}
+.portfolio-info li{
+	line-height: 2.1em;
+
+}
+@media screen and (max-width: 900px) {
+	.port-info{
+		margin-top: -50px;
+
+	}
+}
+.copyright-box{
+	background: #6610f2;
+	height: 78px;
+	position: absolute;
+	overflow: hidden;
+    width: 100%;
+	color: #fff;
+    left: 0;
+}
+.copyright{
+   margin-top: 19px;
+}
+.footerss{
+	width: 1560px;
+	height: 460px;
+	background-color: #333;
+	color: #fff;
+	z-index: 2;
+	position: relative;
+	left: -9%;
+	margin-top: 40px;
+}
+.foots{
+	position: relative;
+	z-index: 2;
+	margin-top: 60px;
+}
+
+.about-soc h4{
+	font-size: 19px;
+}
+.about-soc p{
+	line-height: 1.7em;
+}
+.icoss i{
+	margin-right: 3px;
+	font-size: 20px;
+}
+.navss{
+	position: relative;
+	left: 90%;
+}
+.navss li{
+	list-style: none;
+}
+.navss ul  a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 2em;
+    margin-left: -10px;
+}
+.navss h4{
+	font-size: 19px;
+}
+.sorvices{
+	position: relative;
+	left: 270%;
+}
+.sorvices ul{
+	margin-left: -28px;
+	line-height: 2em;
+}
+.sorvices li{
+	list-style: none;
+}
+.sorvices a{
+	text-decoration: none;
+	color: #fff;
+}
+.sorvices h4{
+	font-size: 19px;
+}
+.contactss{
+	position: relative;
+	left: 175%;
+}
+.contactss h4{
+	font-size: 19px;
+}
+.infoss{
+	line-height: 2em;
+}
+
+@media screen and (max-width: 900px) {
+	.footerss{
+		width: 500px;
+	   height: 1190px;
+	   background-color: #333;
+	   color: #fff;
+	   z-index: 2;
+	   position: relative;
+	   left: 0%;
+	}
+	.foots .navss{
+	
+		position: relative;
+		margin-left: -440px;
+		margin-top: 50px;
+		
+	}
+	.navss h4{
+		font-size: 17px;
+	}
+	.foots .about-soc{
+		position: relative;
+       text-align: left;
+       margin-right: 60px;
+		
+	}
+	.about-soc h4{
+      font-size: 17px;
+      margin-left: 10px;
+    
+	}
+	.about-soc p{
+		margin-left: 10px;
+	}
+
+	.foots .sorvices {
+	    position: relative;
+	    margin-left: -1330px;
+		margin-top: 46px;
+
+	}
+	.sorvices h4{
+		font-size: 17px;
+	}
+	.connect{
+		
+		margin-top: 30px;
+
+	}
+	.connect h4{
+		font-size: 17px;
+	}
+	.about-soc .connect .icoss{
+		margin-left: 11px;
+	}
+	.foots .contactss{
+		position: relative;
+		left:4%;
+		margin-top: 45px;
+	}
+
+}
+.copyrights{
+	position: relative;
+	margin-top: 80px;
+	left: 33%;
+
+}
+.copyss p{
+	font-size: 15px;
+}
+
+@media screen and (max-width: 700px) {
+	.copyrights{
+		position: relative;
+		margin-right: 55px;
+		left: 0%;
+	
+		margin-top: 100px;
+		text-align: center;
+
+	}
+	.copyss p{
+		font-size: 14px;
+		
+
+	}
+}
+
+#arrown{
+	position: fixed;
+	right: 19px;
+	bottom: 10px;
+	width: 44px;
+	height: 44px;
+	border: none;
+	outline: none;
+	background: #6210ff;
+	color: #ffff;
+	margin-top: -9px;
+	border-radius: 50%;
+}
+#arrown:active{
+	background-color: #6210ff;
+}
+
+#arrown i{
+	position: relative;
+	margin-left: 1.5px;
+	top: 0%;
+}
