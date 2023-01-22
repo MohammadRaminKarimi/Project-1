@@ -126,7 +126,7 @@ body{
     .carousel-item{
     	position: relative;
     	left: -1%;
-    	margin-top: 170px;
+    	margin-top: 60px;
     }
     
    .carousel-indicators button{
@@ -308,29 +308,19 @@ body{
 
 }
 .copyrights{
-	position: relative;
-	margin-top: 80px;
-	left: 33%;
+	margin-top: 96px;
+	margin-left: 400px;
 
 }
 .copyss p{
 	font-size: 15px;
 }
-
-@media screen and (max-width: 700px) {
-	.copyrights{
-		position: relative;
-		margin-right: 55px;
-		left: 0%;
-	
-		margin-top: 100px;
-		text-align: center;
-
-	}
-	.copyss p{
-		font-size: 14px;
+@media screen and (max-width: 600px) {
+	.copyss p {
+	    position: absolute;
+	    top: 93%;
+	    left: 4%;
 		
-
 	}
 }
 
