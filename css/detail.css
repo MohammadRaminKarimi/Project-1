@@ -247,7 +247,7 @@ body{
 
 @media screen and (max-width: 900px) {
 	.footerss{
-		width: 500px;
+		width: 550px;
 	   height: 1190px;
 	   background-color: #333;
 	   color: #fff;
@@ -258,7 +258,7 @@ body{
 	.foots .navss{
 	
 		position: relative;
-		margin-left: -440px;
+		margin-left: -480px;
 		margin-top: 50px;
 		
 	}
@@ -282,7 +282,7 @@ body{
 
 	.foots .sorvices {
 	    position: relative;
-	    margin-left: -1330px;
+	    margin-left: -1460px;
 		margin-top: 46px;
 
 	}

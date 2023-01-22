@@ -119,10 +119,13 @@ body{
 #checkbox{
 	margin-left: -5px;
 }
-
+.navbar-nav {
+	position: absolute;
+	left: 36%;
+}
 .navbar-nav .nav-item{
 	position: relative;
-	margin-right: 16px;
+	margin-right: 10px;
 }
 @media screen and (max-width: 900px) {
 	.mobile-nav-toggle{
@@ -201,7 +204,7 @@ body{
      position: relative;
      text-transform: uppercase;
      background: yellow; 
-     left: 68%;
+     left: 25%;
      margin-top: -24px;
      border: 1px solid #ccc;
      color:#000;
@@ -605,9 +608,9 @@ body{
 	}
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 700px) {
 	.text-center .text-title-a{
-		margin-top: 550px;
+		margin-top: 580px;
 		margin-left: -10px;
 	}
 	.text-title::before{
@@ -1084,7 +1087,7 @@ footer{
 
 @media screen and (max-width: 900px) {
 	footer{
-		width: 500px;
+		width: 540px;
 	   height: 1190px;
 	   background-color: #333;
 	   color: #fff;
@@ -1095,7 +1098,7 @@ footer{
 	.footers .navs{
 	
 		position: relative;
-		margin-left: -420px;
+		margin-left: -455px;
 		margin-top: 50px;
 		
 	}
@@ -1115,11 +1118,14 @@ footer{
 	}
 	.about-sec p{
 		margin-left: 10px;
+		width: 400px;
+		float: left;
+		
 	}
 
 	.footers .sorvice {
 	    position: relative;
-	    margin-left: -1270px;
+	    margin-left: -1378px;
 		margin-top: 46px;
 
 	}
