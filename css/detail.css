@@ -245,7 +245,14 @@ body{
 	line-height: 2em;
 }
 
+
 @media screen and (max-width: 900px) {
+
+    .portfolio-discription p{
+    	width: 390px;
+    }
+
+
 	.footerss{
 		width: 550px;
 	   height: 1190px;
@@ -316,10 +323,13 @@ body{
 	font-size: 15px;
 }
 @media screen and (max-width: 600px) {
+	.copyrights{
+		position: absolute;
+		top: 86%;
+		left: -68%;
+	}
 	.copyss p {
-	    position: absolute;
-	    top: 93%;
-	    left: 4%;
+	   
 		
 	}
 }
