@@ -13,7 +13,7 @@ body{
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 770px) {
 	body{
 		overflow-x: hidden;
 
@@ -77,6 +77,7 @@ body{
 
 	}
 }
+
 
 .sticky {
 	z-index: 999;
@@ -153,6 +154,11 @@ body{
 	
 	
 }
+
+
+
+
+
 
 
 .image{
@@ -1062,7 +1068,7 @@ footer{
 }
 .sorvice{
 	position: relative;
-	left: 270%;
+	left: 250%;
 }
 .sorvice ul{
 	margin-left: -28px;
@@ -1080,7 +1086,7 @@ footer{
 }
 .contacts{
 	position: relative;
-	left: 123%;
+	left: 147%;
 }
 .contacts h4{
 	font-size: 19px;
@@ -1091,8 +1097,8 @@ footer{
 
 @media screen and (max-width: 900px) {
 	footer{
-		width: 540px;
-	   height: 1190px;
+	   width: 540px;
+	   height: 1150px;
 	   background-color: #333;
 	   color: #fff;
 	   z-index: 2;
@@ -1158,7 +1164,7 @@ footer{
 .copyright{
 	position: relative;
 	margin-top: 80px;
-	left: 37%;
+	left: 32%;
 
 }
 .copys p{
