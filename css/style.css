@@ -1135,7 +1135,7 @@ footer{
 
 	.footers .sorvice {
 	    position: relative;
-	    margin-left: -1378px;
+	    margin-left: -1270px;
 		margin-top: 46px;
 
 	}
@@ -1170,23 +1170,20 @@ footer{
 .copys p{
 	font-size: 15px;
 }
-@media screen and (max-width: 700px) {
-	.copyright{
-		position: relative;
-		margin-right: 55px;
-		left: 0%;
-	
-		margin-top: 100px;
-		text-align: center;
 
+@media only screen and (max-width: 600px) {
+	.copyright {
+		position: relative;
+		margin-left: 0%;
+		max-width: 230px;
+		text-align: center;
 	}
 	.copys p{
-		font-size: 14px;
-		
-
+		position: absolute;
+		left: -60%;
+		text-align: center;
 	}
 }
-
 
 .messg{
 	position: relative;
