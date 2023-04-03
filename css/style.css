@@ -932,21 +932,23 @@ body{
 	margin-bottom: 13px;
 }
 
-.social-icon{
-	position: relative;
-	text-align: center;
-	left: 58%;
-	margin-top: -120px;
+.socialss {
+	position: absolute;
+	top: 69%;
+	left: 56.3%;
+	transform: translate(-50%, -50%);
 }
-.social-ico ul{
-	list-style: none;
-	margin-left: 53px;
-	font-size: 23px;
-	word-spacing: 7px;
-}
-.social-ico ul a{
+
+.socialss a{
 	text-decoration: none;
 	color: #000;
+	font-size: 24px;
+	margin: 1px;
+}
+#ico1{
+
+	 
+     
 }
 
 
@@ -1045,11 +1047,17 @@ footer{
 }
 .about-sec p{
 	line-height: 1.7em;
+	max-width: 430px;
+	margin-left: -6px;
 }
 .icos i{
-	margin-right: 3px;
-	font-size: 20px;
+	margin-right: 7px;
 }
+.icos a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 27px;
+} 
 .navs{
 	position: relative;
 	left: 90%;
@@ -1180,7 +1188,7 @@ footer{
 	}
 	.copys p{
 		position: absolute;
-		left: -60%;
+		left: -62%;
 		text-align: center;
 	}
 }
