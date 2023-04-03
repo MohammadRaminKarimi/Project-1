@@ -945,11 +945,7 @@ body{
 	font-size: 24px;
 	margin: 1px;
 }
-#ico1{
 
-	 
-     
-}
 
 
 @media screen and (max-width: 800px) {
@@ -978,12 +974,13 @@ body{
 	 text-align: left;
   }
  
-  
-  .social-icon{
-  	position: relative;
-  	left: -48%;
-  	margin-top: -19px;
-}
+  .socialss {
+  	position: absolute;
+	top: 88%;
+	left: 15%;
+	transform: translate(-50%, -50%);
+  }
+ 
  
 }
 
